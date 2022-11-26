@@ -7,6 +7,6 @@ while választott!='0':
     if választott=='1':
        pakliKiir()
     elif választott=='2':
-        pass
+        utmutatoKiir()
     elif választott=='3':
         pass
