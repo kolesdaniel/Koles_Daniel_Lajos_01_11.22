@@ -1,12 +1,12 @@
-from functions import*
+from functions import *
 from os import system
 
-választott=''
-while választott!='0':
-    választott=menu()
-    if választott=='1':
+valasztott=''
+while valasztott!='0':
+    valasztott=menu()
+    if valasztott=='1':
        pakliKiir()
-    elif választott=='2':
+    elif valasztott=='2':
         utmutatoKiir()
-    elif választott=='3':
-        pass
+    elif valasztott=='3':
+        jatekInditasa()
