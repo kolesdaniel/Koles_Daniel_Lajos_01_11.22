@@ -19,7 +19,7 @@ def menu():
     print('1 - Pakli Kiírása')
     print('2 - Útmutató')
     print('3 - Játék elindítása')
-    valasztott = input('Kérem válasszon: ')
+    valasztott = input('Kérem válasszon a menüpontok közül: ')
     return valasztott
 
 def pakliKiir():
@@ -79,3 +79,11 @@ def jatekInditasa():
       print('\n','-'*25,f'  {jatekosok2[0]} nyert, GRATULA','-'*25)
 
   input(f'\n \t Enter lenyomásával léphet tovább....')
+
+
+ 
+
+
+
+
+
