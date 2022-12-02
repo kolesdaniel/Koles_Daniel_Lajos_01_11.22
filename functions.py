@@ -39,7 +39,7 @@ def jatekInditasa():
   print('--Játék Indítása--')
 
   # jatekosok eltarolasa
-  jatekosokSzama=input('Adja meg a játékosok neveit vesszővel elválasztva: ')
+  jatekosokSzama=input(f'\nAdja meg a játékosok neveit vesszővel elválasztva: ')
   jatekosokNevei = jatekosokSzama.strip().split(',')
   
   # jatekosok feallitasa
@@ -76,7 +76,7 @@ def jatekInditasa():
     print(kozepen)
 
     if vege == 31:
-      print('\n','-'*25,f'  {jatekosok2[0]} nyert, GRATULA','-'*25)
+      print('\n','-'*25,f'  {jatekosok2[0]} nyert, GRATULA! 💪','-'*25)
 
   input(f'\n \t Enter lenyomásával léphet tovább....')
 
